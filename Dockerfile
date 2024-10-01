@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libportaudiocpp0 \
     libsndfile1-dev \
     portaudio19-dev \
+    libmecab-dev \
     ffmpeg \
     && apt-get clean \
     python3 \
